@@ -1,20 +1,20 @@
 @font-face {
-    font-family: "Exo Light";
-    src: url(../fonts/Exo/static/Exo-Light.ttf);
+    font-family: 'Exo Thin';
+    src: url(../fonts/Exo/static/Exo-Thin.ttf)
 }
 @font-face {
-    font-family: "Exo Regular Italic";
-    src: url(../fonts/Exo/Exo-Italic-VariableFont_wght.ttf);
+    font-family: 'Exo Regular';
+    src: url(../fonts/Exo/static/Exo-Regular.ttf)
 }
 @font-face {
-    font-family: "Exo Regular Italic";
-    src: url(../fonts/Exo/Exo-Italic-VariableFont_wght.ttf);
+    font-family: 'Exo Regular Italic';
+    src: url(../fonts/Exo/static/Exo-Italic.ttf)
 }
 @font-face {
-    font-family: "Exo Regular Italic";
-    src: url(../fonts/Exo/Exo-Italic-VariableFont_wght.ttf);
+    font-family: 'Exo Medium';
+    src: url(../fonts/Exo/static/Exo-Medium.ttf)
 }
 @font-face {
-    font-family: "Exo Regular Italic";
-    src: url(../fonts/Exo/Exo-Italic-VariableFont_wght.ttf);
+    font-family: 'Lato Regular';
+    src: url(../fonts/Lato/Lato-Regular.ttf)
 }
