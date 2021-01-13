@@ -10,13 +10,13 @@
 
 .first-screen {
    background: url(../images/header.png) center no-repeat;
-   background-size: 100% auto;
+   background-size: cover;
    width: 100%;
 }
 
 .container-header {
    box-sizing: border-box;
-   height: 850px;
+   height: 80vh;
 }
 
 .first-header {
@@ -24,6 +24,5 @@
    font-weight: 100;
    font-style: 60px;
    text-align: center;
-   vertical-align: middle;
 }
 
