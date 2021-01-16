@@ -33,7 +33,7 @@
 }
 
 .button-round:hover {
-   cursor: pointer;
+cursor: pointer;
    transform: scale(1.1);
 }
 
@@ -78,6 +78,9 @@
    margin: 12px auto auto;
 }
 
+span {
+   color: #ff6d6d;
+}
 
 
 
