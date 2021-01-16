@@ -29,11 +29,16 @@
 .button-round {
    opacity: .6;
    margin: 30px auto 20px;
+   transition: 0.3s;
 }
 
 .button-round:hover {
    cursor: pointer;
-   
+   transform: scale(1.1);
+}
+
+.button-round:active {
+   transform: none;   
 }
 
 .button-square {
@@ -42,10 +47,16 @@
    height: 50px;
    border-radius: 3px;
    margin: 20px auto 12px;
+   transition: 0.3s;
 }
 
 .button-square:hover {
    cursor: pointer;
+   transform: scale(1.1);
+}
+
+.button-square:active {
+   transform: none;   
 }
 
 .text-btn-sq {
