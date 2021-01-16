@@ -26,19 +26,12 @@
    margin: auto auto 30px;
 }
 
+/* Кнопки */
+
 .button-round {
    opacity: .6;
    margin: 30px auto 20px;
    transition: 0.3s;
-}
-
-.button-round:hover {
-cursor: pointer;
-   transform: scale(1.1);
-}
-
-.button-round:active {
-   transform: none;   
 }
 
 .button-square {
@@ -50,15 +43,6 @@ cursor: pointer;
    transition: 0.3s;
 }
 
-.button-square:hover {
-   cursor: pointer;
-   transform: scale(1.1);
-}
-
-.button-square:active {
-   transform: none;   
-}
-
 .text-btn-sq {
    text-align: center;
    font-family: 'Exo Regular';
@@ -67,6 +51,28 @@ cursor: pointer;
    color: #fff;
    line-height: 50px;
 }
+
+/* Анимация кнопок */
+
+.button-round:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.button-round:active {
+   transform: none;
+}
+
+.button-square:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.button-square:active {
+   transform: none;
+}
+
+/* Сноска */
 
 .capution {
    text-align: center;
@@ -81,7 +87,4 @@ cursor: pointer;
 span {
    color: #ff6d6d;
 }
-
-
-
 
