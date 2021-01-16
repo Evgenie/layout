@@ -2,3 +2,18 @@
 C:\fakepath(57,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 C:\fakepath(65,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 
+[0113/210654.080:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(57,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(65,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0114/021511.204:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0116/085847.192:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 511
+[0116/092127.924:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(57,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(65,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0116/094458.775:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0116/102935.848:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,8-27): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+

@@ -1,6 +1,5 @@
 @import 'font.css';
 
-
 * {
    margin: 0;
    padding: 0;
@@ -8,21 +7,67 @@
 
 /* Первый экран */
 
-.first-screen {
+.container-header {
    background: url(../images/header.png) center no-repeat;
    background-size: cover;
    width: 100%;
-}
-
-.container-header {
-   box-sizing: border-box;
-   height: 80vh;
+   height: 100vh;
+   max-height: 812px;
+   display: flex;
+   flex-direction: column;
 }
 
 .first-header {
    font-family: 'Exo Thin';
    font-weight: 100;
-   font-style: 60px;
+   font-size: 60px;
+   max-width: 725px;
    text-align: center;
+   margin: auto auto 30px;
 }
+
+.button-round {
+   opacity: .6;
+   margin: 30px auto 20px;
+}
+
+.button-round:hover {
+   cursor: pointer;
+   
+}
+
+.button-square {
+   background: #ff6d6d;
+   width: 190px;
+   height: 50px;
+   border-radius: 3px;
+   margin: 20px auto 12px;
+}
+
+.button-square:hover {
+   cursor: pointer;
+}
+
+.text-btn-sq {
+   text-align: center;
+   font-family: 'Exo Regular';
+   font-weight: 400;
+   font-size: 16px;
+   color: #fff;
+   line-height: 50px;
+}
+
+.capution {
+   text-align: center;
+   font-family: 'Myriad Pro';
+   font-weight: 400;
+   font-size: 14px;
+   color: #282828;
+   opacity: .6;
+   margin: 12px auto auto;
+}
+
+
+
+
 
