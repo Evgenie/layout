@@ -90,14 +90,13 @@ span {
 /* Второй экран */
 
 .new-desing1 {
+   height: 90vh;
    display: flex;
    flex-direction: row;
-   justify-content: end;
 }
 .discriptoin {
-   padding: 11vw;
+   width: 100%;
    flex-direction: column;
-   width: 80%;
 }
 .discription1 {
    font-family: 'Exo Medium';
@@ -105,7 +104,6 @@ span {
    font-size: 16px;
    color: #ff6d6d;
    margin-bottom: 15px;
-   flex-grow: 1.6;
 }
 .discription2 {
    font-family: 'Exo Medium';
@@ -134,25 +132,26 @@ span {
    font-weight: 500;
    font-size: 16px;
    color: #282828;
-   max-width: 540px;
+   max-width: 530px;
    opacity: .66;
 }
 
 .foto-section2 {
    background: #ececec;
    width: 100%;
+   flex-shrink: 1.2;
    position: relative;
    overflow: hidden;
 }
 
 .triangle {
    background-color: #ff6d6d;
-   height: 200%;
+   height: 500%;
    width: 100%;
    position: absolute;
    bottom: 0;
    transition: none;
    transform-origin: left bottom;
-   transform: rotate(50deg);
+   transform: rotate(55deg);
 }
 
