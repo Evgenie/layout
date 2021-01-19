@@ -90,26 +90,69 @@ span {
 /* Второй экран */
 
 .new-desing1 {
-   margin: 0 auto;
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: end;
 }
 .discriptoin {
-   padding: 6vw;
+   padding: 11vw;
    flex-direction: column;
+   width: 80%;
 }
 .discription1 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   color: #ff6d6d;
+   margin-bottom: 15px;
+   flex-grow: 1.6;
 }
 .discription2 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 40px;
+   max-width: 500px;
+   color: #282828;
 }
+
+.points {
+   color: #ff6d6d;
+}
+
 .discription3 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   color: #282828;
+   max-width: 550px;
+   margin-bottom: 40px;
+   opacity: .66;
 }
+
 .discription4 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   color: #282828;
+   max-width: 540px;
+   opacity: .66;
 }
+
 .foto-section2 {
    background: #ececec;
-   width: 80%;
-   height: 80vh;
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+}
+
+.triangle {
+   background-color: #ff6d6d;
+   height: 200%;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   transition: none;
+   transform-origin: left bottom;
+   transform: rotate(50deg);
 }
 
