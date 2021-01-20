@@ -90,14 +90,15 @@ span {
 /* Второй экран */
 
 .new-desing1 {
-   height: 90vh;
    display: flex;
-   flex-direction: row;
 }
+
 .discriptoin {
    width: 100%;
+   padding: 13vw;
    flex-direction: column;
 }
+
 .discription1 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -105,6 +106,7 @@ span {
    color: #ff6d6d;
    margin-bottom: 15px;
 }
+
 .discription2 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -137,21 +139,83 @@ span {
 }
 
 .foto-section2 {
-   background: #ececec;
+   background: #f1f1f1 url(../images/portrait.jpg) left no-repeat;
+   background-size: cover;
    width: 100%;
-   flex-shrink: 1.2;
+   flex-shrink: 0.8;
    position: relative;
    overflow: hidden;
 }
 
 .triangle {
    background-color: #ff6d6d;
+   opacity: .8;
    height: 500%;
    width: 100%;
    position: absolute;
    bottom: 0;
    transition: none;
    transform-origin: left bottom;
-   transform: rotate(55deg);
+   transform: rotate(50deg);
 }
 
+/* Третий экран */
+
+.new-features {
+   background: #f6f5f3 url(/images/newfeatures-bg.png) center no-repeat;
+   background-size: cover;
+   padding: 13vw 0;
+   display: flex;
+   flex-direction: column;
+}
+.header-third-ssection1 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   color: #ff6d6d;
+   text-align: center;
+   padding-bottom: 25px;
+}
+.header-third-ssection2 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 40px;
+   color: #282828;
+   text-align: center;
+   padding-bottom: 90px;
+}
+
+.some-awesom-features {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   list-style-type: none;
+   justify-content: space-evenly;
+}
+.item-header {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 22px;
+   color: #282828;
+   padding-bottom: 20px;
+}
+.item-discription {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   color: #282828;
+   opacity: .66;
+   max-width: 330px;
+}
+
+.icon_1 {
+   padding-bottom: 35px;
+}
+
+.icon_2 {
+   padding-bottom: 35px;
+}
+
+.icon_3 {
+   padding-bottom: 35px;
+}
