@@ -162,7 +162,7 @@ span {
 /* Третий экран */
 
 .new-features {
-   background: #f6f5f3 url(/images/newfeatures-bg.png) center no-repeat;
+   background: #f6f5f3 url(/images/newfeatures-bg.png) left no-repeat;
    background-size: cover;
    padding: 13vw 0;
    display: flex;
@@ -174,7 +174,7 @@ span {
    font-size: 16px;
    color: #ff6d6d;
    text-align: center;
-   padding-bottom: 25px;
+   margin-bottom: 25px;
 }
 .header-third-ssection2 {
    font-family: 'Exo Medium';
@@ -182,7 +182,7 @@ span {
    font-size: 40px;
    color: #282828;
    text-align: center;
-   padding-bottom: 90px;
+   margin-bottom: 90px;
 }
 
 .some-awesom-features {
@@ -197,7 +197,7 @@ span {
    font-weight: 500;
    font-size: 22px;
    color: #282828;
-   padding-bottom: 20px;
+   margin-bottom: 20px;
 }
 .item-discription {
    font-family: 'Exo Medium';
@@ -205,17 +205,51 @@ span {
    font-size: 16px;
    color: #282828;
    opacity: .66;
-   max-width: 330px;
+   max-width: 335px;
 }
 
 .icon_1 {
-   padding-bottom: 35px;
+   margin-bottom: 35px;
 }
 
 .icon_2 {
-   padding-bottom: 35px;
+   margin-bottom: 35px;
 }
 
 .icon_3 {
-   padding-bottom: 35px;
+   margin-bottom: 35px;
+}
+
+/* Четвертый экран */
+
+.responsive-design {
+   display: flex;
+   justify-content: center;
+}
+.section-macbook {
+   position: relative;
+   overflow: hidden;
+}
+.section-triangle {
+   background-color: #ff6d6d;
+   opacity: .8;
+   height: 500%;
+   width: 100%;
+   position: absolute;
+   bottom: 0;
+   transition: none;
+   transform-origin: right bottom;
+   transform: rotate(-50deg);
+   z-index: 0;
+}
+.macbook {
+   z-index: 1;
+}
+.section-discription {
+}
+.red-header {
+}
+.second-header {
+}
+.paragraph {
 }
