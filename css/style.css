@@ -287,3 +287,41 @@
    opacity: .66;
    max-width: 500px;
 }
+
+/* Пятый экран */
+
+.sponsor-section {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.co-founders {
+   display: flex;
+   flex-direction: row;
+}
+.co-founder-bq {
+}
+.avatar {
+}
+.name-co-found {
+}
+.position {
+}
+.bq {
+}
+.section-logos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.logos-1 {
+}
+.logos-2 {
+}
+.logos-3 {
+}
+.logos-4 {
+}
+.logos-5 {
+}
