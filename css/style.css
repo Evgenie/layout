@@ -297,7 +297,6 @@
    background-blend-mode: luminosity;
    display: flex;
    flex-direction: column;
-   justify-content: space-evenly;
 }
 .co-founders {
    padding: 7vw 0;
@@ -382,3 +381,4 @@
    max-width: 650px;
    margin-bottom: 6vw;
 }
+
