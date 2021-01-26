@@ -15,7 +15,6 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
 }
 
 .first-header {
@@ -32,7 +31,7 @@
 .button-round {
    opacity: .6;
    margin-bottom: 40px;
-   transition: 0.3s;
+   transition: 0.2s;
 }
 
 .button-square {
@@ -41,7 +40,10 @@
    height: 50px;
    border-radius: 3px;
    margin-bottom: 24px;
-   transition: 0.3s;
+   transition: 0.2s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .text-btn-sq {
@@ -50,7 +52,6 @@
    font-weight: 400;
    font-size: 16px;
    color: #fff;
-   line-height: 50px;
 }
 
 /* Анимация кнопок */
@@ -246,7 +247,7 @@
    right: 20%;
    transition: none;
    transform-origin: right bottom;
-   transform: rotate(-50deg);
+   transform: rotate(-40deg);
 }
 
 .macbook {
@@ -290,24 +291,20 @@
 
 /* Пятый экран */
 
-.black-bg {
-   background: #000;
-}
-
 .sponsor-section {
-   background: url(../images/team-bg.png) center no-repeat;
+   background: #000000 url(../images/team-bg.png) center no-repeat;
    background-size: cover;
-   padding: 7vw;
+   background-blend-mode: luminosity;
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
-   opacity: .8;
 }
 .co-founders {
-   padding: 6vw;
+   padding: 7vw 0;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
+   color: #fff;
 }
 .co-founder-bq {
    display: flex;
@@ -317,12 +314,31 @@
    list-style-type: none;
 }
 .avatar {
+   height: 76px;
+   width: 76px;
+   background-color: #4e4e5e;
+   border: #1d1e24 solid 2px;
+   margin-bottom: 25px;
 }
 .name-co-found {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 22px;
+   margin-bottom: 14px;
 }
 .position {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   margin-bottom: 38px;
+   color: #ff6d6d;
 }
 .bq {
+   font-family: 'Exo Regular';
+   font-weight: 400;
+   font-size: 16px;
+   text-align: center;
+   opacity: 0.66;
 }
 
 /* Блок с логотипами */
@@ -331,49 +347,38 @@
    display: flex;
    align-items: center;
    justify-content: space-evenly;
-}
-.logo-1 {
-   height: 65px;
-   width: 130px;
-   background-image: url(../images/partner-logo-1.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-color: #fff;
-   background-blend-mode: unset;
-}
-.logo-2 {
-   height: 56px;
-   width: 110px;
-   background: rgb(255, 255, 255, .6) url(../images/partner-logo-2.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-blend-mode: hue;
-}
-.logo-3 {
-   height: 85px;
-   width: 98px;
-   background-image: url(../images/partner-logo-3.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-color: #fff;
-   background-blend-mode: lighten;
-}
-.logo-4 {
-   height: 61px;
-   width: 95px;
-   background-image: url(../images/partner-logo-4.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-color: #fff;
-   background-blend-mode: overlay;
-}
-.logo-5 {
-   height: 65px;
-   width: 120px;
-   background-image: url(../images/partner-logo-5.png);
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-color: #fff;
-   background-blend-mode: lighten;
+   padding-bottom: 7vw;
 }
 
+/* Шестая секция */
+.section-browser {
+   background: #f6f5f3;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.header-sixth-section-1 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   margin-bottom: 26px;
+   padding-top: 7vw;
+   color: #ff6d6d;
+}
+.header-sixth-section-2 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 40px;
+   margin-bottom: 49px;
+   color: #282828;
+}
+.paragraph-sixth-section {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   text-align: center;
+   opacity: 0.66;
+   color: #282828;
+   max-width: 650px;
+   margin-bottom: 6vw;
+}
