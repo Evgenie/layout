@@ -291,20 +291,38 @@
 
 /* Пятый экран */
 
+.black-bg {
+   background: #000;
+}
+
 .sponsor-section {
+<<<<<<< HEAD
    background: #000000 url(../images/team-bg.png) center no-repeat;
    background-size: cover;
    background-blend-mode: luminosity;
+=======
+   background: url(../images/team-bg.png) center no-repeat;
+   background-size: cover;
+   padding: 7vw;
+>>>>>>> 3b8ceee1b7c16369e573a630c2235e8fc4a2738f
    display: flex;
    flex-direction: column;
    justify-content: space-evenly;
+   opacity: .8;
 }
 .co-founders {
+<<<<<<< HEAD
    padding: 7vw 0;
    display: flex;
    align-items: center;
    justify-content: space-evenly;
    color: #fff;
+=======
+   padding: 6vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+>>>>>>> 3b8ceee1b7c16369e573a630c2235e8fc4a2738f
 }
 .co-founder-bq {
    display: flex;
@@ -349,6 +367,7 @@
    justify-content: space-evenly;
    padding-bottom: 7vw;
 }
+<<<<<<< HEAD
 
 /* Шестая секция */
 .section-browser {
@@ -381,4 +400,51 @@
    color: #282828;
    max-width: 650px;
    margin-bottom: 6vw;
+=======
+.logo-1 {
+   height: 65px;
+   width: 130px;
+   background-image: url(../images/partner-logo-1.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #fff;
+   background-blend-mode: unset;
 }
+.logo-2 {
+   height: 56px;
+   width: 110px;
+   background-image: url(../images/partner-logo-2.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: rgb(255, 255, 255, .6);
+   background-blend-mode: unset;
+}
+.logo-3 {
+   height: 85px;
+   width: 98px;
+   background-image: url(../images/partner-logo-3.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #fff;
+   background-blend-mode: lighten;
+}
+.logo-4 {
+   height: 61px;
+   width: 95px;
+   background-image: url(../images/partner-logo-4.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #fff;
+   background-blend-mode: overlay;
+}
+.logo-5 {
+   height: 65px;
+   width: 120px;
+   background-image: url(../images/partner-logo-5.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: #fff;
+   background-blend-mode: lighten;
+>>>>>>> 3b8ceee1b7c16369e573a630c2235e8fc4a2738f
+}
+
