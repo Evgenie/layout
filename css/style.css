@@ -209,15 +209,7 @@
    max-width: 335px;
 }
 
-.icon_1 {
-   margin-bottom: 35px;
-}
-
-.icon_2 {
-   margin-bottom: 35px;
-}
-
-.icon_3 {
+.icons {
    margin-bottom: 35px;
 }
 
@@ -350,6 +342,7 @@
 }
 
 /* Шестая секция */
+
 .section-browser {
    background: #f6f5f3;
    display: flex;
