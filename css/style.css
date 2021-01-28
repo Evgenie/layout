@@ -385,44 +385,125 @@
    align-items: center;
 }
 .header-seventh-section-1 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 16px;
+   margin-bottom: 16px;
+   color: #ff6d6d;
 }
 .header-seventh-section-2 {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 40px;
+   margin-bottom: 36px;
+   color: #ffffff;
 }
 .form {
    width: 65%;
    display: flex;
    align-items: flex-end;
    justify-content: space-evenly;
+   margin-bottom: 52px;
 }
+
+/* Поля ввода */
+
 .input {
    background: rgb(246, 245, 243, .2);
    border: rgb(246, 245, 243, .5) solid 1px;
    border-radius: 3px;
    height: 50px;
-   width: 262px;
+   width: 263px;
    color: #f6f5f3;
    font-family: 'Exo Regular';
    font-weight: 400;
    font-size: 16px;
-   text-align: center;
+   text-indent: 10%;
 }
 
-.submit {
-
+.input::-moz-placeholder {
+   color: #f6f5f3;
+   opacity: 1;
 }
+
+.input::-webkit-input-placeholder {
+   color: #f6f5f3;
+   opacity: 1;
+}
+.input { 
+   color: #f6f5f3;
+   opacity: 1; 
+}
+.input::-ms-input-placeholder { 
+   color: #f6f5f3;
+   opacity: 1; 
+}
+.input::placeholder { 
+   color: #f6f5f3;
+   opacity: 1; 
+} 
+
+/* Offer 30 days */
+
 .trial {
+   display: flex;
+   align-items: flex-start;
+   margin-bottom: 18px;
 }
+
 .arrow {
+   background: url(../images/ARROW.png) left no-repeat;
+   height: 41px;
+   width: 35px;
 }
+
+.days {
+   font-family: 'Exo Regular';
+   font-weight: 400;
+   font-size: 16px;
+   color: #f6f5f3;
+}
+
+/* Кнопка */
+
 .button-submit {
    background: #ff6d6d;
-   height: 50px;
-   width: 262px;
+   height: 52px;
+   width: 263px;
    border-radius: 3px;
    transition: 0.2s;
+   border: none;
+   box-shadow: 0 1.5px 3px 1.5px rgba(0, 0, 0, .25);
+   font-family: 'Exo Regular';
+   font-weight: 400;
+   font-size: 16px;
+   color: #f6f5f3;
 }
+
+/* Анимация кнопки  */
+
+.button-submit:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.button-submit:active {
+   transform: none;
+   border: none;
+}
+
 .signing {
+   font-family: 'Exo Regular';
+   font-weight: 400;
+   font-size: 16px;
+   color: #f6f5f3;
+   opacity: .6;
 }
+
 .terms {
+   font-family: 'Exo Regular';
+   font-weight: 400;
+   font-size: 16px;
+   color: #f6f5f3;
 }
 
