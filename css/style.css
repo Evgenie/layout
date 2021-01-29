@@ -44,6 +44,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+   text-decoration: none;
 }
 
 .text-btn-sq {
@@ -139,7 +140,7 @@
    opacity: .66;
 }
 
-.foto-section2 {
+.triangle-section {
    background: #f1f1f1 url(../images/portrait.jpg) left no-repeat;
    background-size: cover;
    width: 100%;
@@ -169,6 +170,7 @@
    display: flex;
    flex-direction: column;
 }
+
 .header-third-ssection1 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -177,6 +179,7 @@
    text-align: center;
    margin-bottom: 25px;
 }
+
 .header-third-ssection2 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -193,6 +196,7 @@
    list-style-type: none;
    justify-content: space-evenly;
 }
+
 .item-header {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -200,6 +204,7 @@
    color: #282828;
    margin-bottom: 20px;
 }
+
 .item-discription {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -290,6 +295,7 @@
    display: flex;
    flex-direction: column;
 }
+
 .co-founders {
    padding: 7vw 0;
    display: flex;
@@ -297,6 +303,7 @@
    justify-content: space-evenly;
    color: #fff;
 }
+
 .co-founder-bq {
    display: flex;
    flex-direction: column;
@@ -304,6 +311,7 @@
    max-width: 330px;
    list-style-type: none;
 }
+
 .avatar {
    height: 76px;
    width: 76px;
@@ -311,12 +319,14 @@
    border: #1d1e24 solid 2px;
    margin-bottom: 25px;
 }
+
 .name-co-found {
    font-family: 'Exo Medium';
    font-weight: 500;
    font-size: 22px;
    margin-bottom: 14px;
 }
+
 .position {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -324,6 +334,7 @@
    margin-bottom: 38px;
    color: #ff6d6d;
 }
+
 .bq {
    font-family: 'Exo Regular';
    font-weight: 400;
@@ -349,6 +360,7 @@
    flex-direction: column;
    align-items: center;
 }
+
 .header-sixth-section-1 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -357,6 +369,7 @@
    padding-top: 7vw;
    color: #ff6d6d;
 }
+
 .header-sixth-section-2 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -364,6 +377,7 @@
    margin-bottom: 49px;
    color: #282828;
 }
+
 .paragraph-sixth-section {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -384,6 +398,7 @@
    flex-direction: column;
    align-items: center;
 }
+
 .header-seventh-section-1 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -391,6 +406,7 @@
    margin-bottom: 16px;
    color: #ff6d6d;
 }
+
 .header-seventh-section-2 {
    font-family: 'Exo Medium';
    font-weight: 500;
@@ -398,6 +414,7 @@
    margin-bottom: 36px;
    color: #ffffff;
 }
+
 .form {
    width: 65%;
    display: flex;
@@ -412,36 +429,35 @@
    background: rgb(246, 245, 243, .2);
    border: rgb(246, 245, 243, .5) solid 1px;
    border-radius: 3px;
-   height: 50px;
-   width: 263px;
+   height: 47px;
+   width: 261px;
    color: #f6f5f3;
    font-family: 'Exo Regular';
    font-weight: 400;
    font-size: 16px;
    text-indent: 10%;
+   opacity: 1;
 }
 
-.input::-moz-placeholder {
+.data::-moz-placeholder {
    color: #f6f5f3;
    opacity: 1;
 }
 
-.input::-webkit-input-placeholder {
+.data::-webkit-input-placeholder {
    color: #f6f5f3;
    opacity: 1;
 }
-.input { 
+
+.data::-ms-input-placeholder {
    color: #f6f5f3;
-   opacity: 1; 
+   opacity: 1;
 }
-.input::-ms-input-placeholder { 
+
+.data::placeholder {
    color: #f6f5f3;
-   opacity: 1; 
+   opacity: 1;
 }
-.input::placeholder { 
-   color: #f6f5f3;
-   opacity: 1; 
-} 
 
 /* Offer 30 days */
 
@@ -466,9 +482,9 @@
 
 /* Кнопка */
 
-.button-submit {
+.button {
    background: #ff6d6d;
-   height: 52px;
+   height: 49px;
    width: 263px;
    border-radius: 3px;
    transition: 0.2s;
@@ -482,12 +498,12 @@
 
 /* Анимация кнопки  */
 
-.button-submit:hover {
+.button:hover {
    cursor: pointer;
    transform: scale(1.1);
 }
 
-.button-submit:active {
+.button:active {
    transform: none;
    border: none;
 }
@@ -507,3 +523,104 @@
    color: #f6f5f3;
 }
 
+/* Подвал */
+
+.footer {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.list {
+   list-style-type: none;
+   max-width: 235px;
+   margin: 5vw 9vw 5vw 0;
+}
+
+.footer-item-1 {
+   margin-left: 5vw;
+}
+
+.footer-headers {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 22px;
+   color: #282828;
+   margin-bottom: 22px;
+   height: 47px;
+   display: flex;
+   align-items: center;
+}
+
+.start {
+   font-family: 'Lato Regular';
+   font-weight: 400;
+   font-size: 27px;
+   display: inline;
+   vertical-align: 50%;
+   margin-bottom: 28px;
+}
+
+.contacts {
+   font-family: 'Exo Medium';
+   font-weight: 500;
+   font-size: 14px;
+   color: #2b2525;
+   line-height: 26px;
+   opacity: .56;
+}
+
+.links {
+   font-family: 'Exo Regular';
+   font-weight: 400;
+   font-size: 14px;
+   color: #282828;
+   opacity: .96;
+   text-decoration: none;
+   margin-bottom: 20px;
+}
+
+.newsletter {
+   margin-right: 2vw;
+}
+
+.subscribtion {
+   display: flex;
+}
+
+.email {
+   width: 211px;
+   background: rgb(40, 40, 40, .05);
+   border: rgb(40, 40, 40, .25) solid 1px;
+   border-right: 0;
+   border-radius: 3px 0 0 3px;
+   color: #282828;
+}
+
+.sub-arrow {
+   background: #ff6d6d url(../images/fly.png) center no-repeat;
+   width: 52px;
+}
+
+.social {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 20px;
+}
+
+.footer-triangle {
+   width: 25vw;
+   position: relative;
+   overflow: hidden;
+}
+
+.trfooter {
+   background: #ff6d6d;
+   opacity: .8;
+   height: 500%;
+   width: 100%;
+   position: absolute;
+   top: 0;
+   transition: none;
+   transform-origin: left top;
+   transform: rotate(-45deg);
+}
