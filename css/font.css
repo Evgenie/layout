@@ -1,33 +1,33 @@
 @font-face {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Exo';
     font-size: thin;
     src: url(../fonts/Exo/static/Exo-Thin.ttf)
 }
 @font-face {
-    font-family: 'Exo ', sans-serif;
+    font-family: 'Exo ';
     font-size: Regular;
     src: url(../fonts/Exo/static/Exo-Regular.ttf)
 }
 @font-face {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Exo';
     font-size: Regular;
     font-style: italic;
     src: url(../fonts/Exo/static/Exo-Italic.ttf)
 }
 @font-face {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Exo';
     font-size: Medium;
     src: url(../fonts/Exo/static/Exo-Medium.ttf)
 }
 @font-face {
-    font-family: 'latoregular', sans-serif;
+    font-family: 'latoregular';
     src: url('lato-regular-webfont.woff2') format('woff2'),
          url('lato-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Myriad Pro', sans-serif;
+    font-family: 'Myriad Pro';
     font-size: Regular;
     src: url(../fonts/Myriad\ Pro.ttf)
 }

@@ -5,6 +5,10 @@
    padding: 0;
 }
 
+body {
+   font-family: 'Exo', sans-serif;
+}
+
 /* Первый экран */
 
 .container-header {
@@ -18,7 +22,6 @@
 }
 
 .first-header {
-   font-family: 'Exo Thin';
    font-weight: 100;
    font-size: 60px;
    max-width: 730px;
@@ -49,7 +52,6 @@
 
 .text-btn-sq {
    text-align: center;
-   font-family: 'Exo Regular';
    font-weight: 400;
    font-size: 16px;
    color: #fff;
@@ -97,6 +99,9 @@
 }
 
 .discriptoin {
+   font-weight: 500;
+   font-size: 16px;
+   color: #282828;
    display: flex;
    width: 100%;
    padding: 13vw;
@@ -106,36 +111,22 @@
 }
 
 .discription1 {
-   font-family: 'Exo Medium';
-   font-weight: 500;
-   font-size: 16px;
    color: #ff6d6d;
    margin-bottom: 15px;
 }
 
 .discription2 {
-   font-family: 'Exo Medium';
-   font-weight: 500;
    font-size: 40px;
    max-width: 500px;
-   color: #282828;
 }
 
 .discription3 {
-   font-family: 'Exo Medium';
-   font-weight: 500;
-   font-size: 16px;
-   color: #282828;
    max-width: 550px;
    margin-bottom: 40px;
    opacity: .66;
 }
 
 .discription4 {
-   font-family: 'Exo Medium';
-   font-weight: 500;
-   font-size: 16px;
-   color: #282828;
    max-width: 530px;
    opacity: .66;
 }
