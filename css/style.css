@@ -155,7 +155,7 @@ body {
 /* Третий экран */
 
 .new-features {
-   background: #f6f5f3 url(/images/newfeatures-bg.png) left no-repeat;
+   background: #f6f5f3 url(../images/newfeatures-bg.png) left no-repeat;
    background-size: cover;
    padding: 13vw 0;
    display: flex;
